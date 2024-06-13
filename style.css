@@ -118,3 +118,11 @@ button:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.32);
   transform: translateX(3px);
 }
+
+/* ********************MEDIA QUERIES***************** */
+
+@media screen and (max-width: 390px) {
+  input[type="checkbox"]:checked + label {
+    transform: scale(1.1);
+  }
+}
